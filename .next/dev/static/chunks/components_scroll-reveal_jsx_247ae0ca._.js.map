@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/PC/Desktop/nextt/webnext/components/scroll-reveal.jsx"],"sourcesContent":["'use client';\n\nimport { motion } from 'framer-motion';\nimport { useInView } from 'react-intersection-observer';\n\nexport default function ScrollReveal({ children, delay = 0 }) {\n  const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true });\n\n  return (\n    <motion.div\n      ref={ref}\n      initial={{ opacity: 0, y: 20 }}\n      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}\n      transition={{ delay, duration: 0.6 }}\n    >\n      {children}\n    </motion.div>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;;AAAA;;;AAKe,SAAS,aAAa,EAAE,QAAQ,EAAE,QAAQ,CAAC,EAAE;;IAC1D,MAAM,EAAE,GAAG,EAAE,MAAM,EAAE,GAAG,UAAU;QAAE,WAAW;QAAK,aAAa;IAAK;IAEtE,qBACE,6LAAC,OAAO,GAAG;QACT,KAAK;QACL,SAAS;YAAE,SAAS;YAAG,GAAG;QAAG;QAC7B,SAAS,SAAS;YAAE,SAAS;YAAG,GAAG;QAAE,IAAI;YAAE,SAAS;YAAG,GAAG;QAAG;QAC7D,YAAY;YAAE;YAAO,UAAU;QAAI;kBAElC;;;;;;AAGP;GAbwB;;QACE;;;KADF"}}]
+}

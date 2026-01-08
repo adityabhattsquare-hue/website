@@ -1,0 +1,79 @@
+{
+  "[project]/components/Particles.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/Particles.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/components_Particles_jsx_88429199._.js",
+      "static/chunks/components_Particles_jsx_1a883966._.js"
+    ]
+  },
+  "[project]/components/process-section.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/process-section.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_839a6b4a._.js",
+      "static/chunks/components_process-section_jsx_1a883966._.js"
+    ]
+  },
+  "[project]/components/stats-section.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/stats-section.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_575fefe7._.js",
+      "static/chunks/components_stats-section_jsx_1a883966._.js"
+    ]
+  },
+  "[project]/components/horizontal-product-scroll.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/horizontal-product-scroll.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_18b2e201._.js",
+      "static/chunks/components_horizontal-product-scroll_jsx_1a883966._.js"
+    ]
+  },
+  "[project]/components/category-showcase.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/category-showcase.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/components_category-showcase_jsx_357ba17e._.js",
+      "static/chunks/components_category-showcase_jsx_1a883966._.js"
+    ]
+  },
+  "[project]/components/scroll-reveal.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/scroll-reveal.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_c35957ab._.js",
+      "static/chunks/components_scroll-reveal_jsx_1a883966._.js"
+    ]
+  },
+  "[project]/components/product-card.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/product-card.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_6e40f8c4._.js",
+      "static/chunks/components_product-card_jsx_1a883966._.js"
+    ]
+  },
+  "[project]/components/testimonial-slider.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/testimonial-slider.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_6ffc63d2._.js",
+      "static/chunks/components_testimonial-slider_jsx_1a883966._.js"
+    ]
+  },
+  "[project]/components/cta-banner.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/cta-banner.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/components_cta-banner_jsx_8932c166._.js",
+      "static/chunks/components_cta-banner_jsx_1a883966._.js"
+    ]
+  },
+  "[project]/components/newsletter.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/newsletter.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/components_newsletter_jsx_6d8a4a39._.js",
+      "static/chunks/components_newsletter_jsx_1a883966._.js"
+    ]
+  },
+  "[project]/components/footer.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/footer.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/components_footer_jsx_f84a66f2._.js",
+      "static/chunks/components_footer_jsx_1a883966._.js"
+    ]
+  }
+}

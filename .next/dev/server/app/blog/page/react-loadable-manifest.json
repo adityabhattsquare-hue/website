@@ -1,0 +1,9 @@
+{
+  "[project]/components/footer.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/footer.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/components_footer_jsx_f84a66f2._.js",
+      "static/chunks/components_footer_jsx_a7faef71._.js"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[00:00:02.148] Server  LOG      ✓ Ready in 1396ms
+[00:00:05.346] Server  LOG      ○ Compiling /blog ...
+[00:00:08.919] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.343] Browser LOG     Organization ID: 1
+[00:00:09.343] Browser ERROR   Error fetching blog posts: {}
+[00:00:13.592] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.978] Browser LOG     Organization ID: 1
+[00:00:13.978] Browser ERROR   Error fetching blog posts: {}
+[00:02:23.657] Server  LOG      ✓ Compiled in 201ms
+[00:02:36.392] Server  LOG      ✓ Compiled in 145ms
+[00:02:39.162] Server  LOG      ✓ Compiled in 140ms
+[00:02:39.285] Browser ERROR   ./app/blog/page.jsx:25:62
+Parsing ecmascript source code failed
+  23 |       try {
+  24 |         setLoading(true);
+> 25 |         const response = await fetch(`${API_BASE_URL}/blog/${}`, {
+     |                                                              ^
+  26 |           headers: {
+  27 |             'Content-Type': 'application/json',
+  28 |             'x-org-id': SHOP_ORG_ID,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/blog/page.jsx [Client Component Browser]
+    ./app/blog/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/blog/page.jsx [Client Component SSR]
+    ./app/blog/page.jsx [Server Component]
+[00:02:43.804] Server  LOG      ✓ Compiled in 145ms
+[00:02:50.091] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:50.455] Browser LOG     Organization ID: 1
+[00:03:08.889] Browser LOG     Organization ID: 1
+[00:03:08.889] Browser LOG     Organization ID: 1
+[00:03:09.215] Browser LOG     Organization ID: 1
+[00:03:09.215] Browser LOG     Organization ID: 1
+[00:03:30.612] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:30.901] Browser LOG     Organization ID: 1
+[00:03:54.323] Browser LOG     Organization ID: 1
+[00:03:54.324] Browser LOG     Organization ID: 1
+[00:03:54.648] Browser LOG     Organization ID: 1
+[00:03:54.648] Browser LOG     Organization ID: 1
+[00:05:14.960] Browser LOG     Home page mounted, checking authentication...
+[00:05:14.960] Browser LOG     User is authenticated, loading data...
+[00:05:14.960] Browser LOG     Home page mounted, fetching featured products...
+[00:05:15.508] Browser LOG     Home page mounted, checking authentication...
+[00:05:15.508] Browser LOG     User is authenticated, loading data...
+[00:05:15.508] Browser LOG     Home page mounted, fetching featured products...
+[00:06:44.189] Server  LOG      ✓ Compiled in 115ms
