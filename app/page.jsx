@@ -60,6 +60,8 @@ const BANNER_SLIDES = [
 ];
 
 export default function Home() {
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+const SHOP_ORG_ID = process.env.NEXT_PUBLIC_ORG_ID;
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isInitialLoad, setIsInitialLoad] = useState(true);
   const [mounted, setMounted] = useState(false);
@@ -100,6 +102,20 @@ export default function Home() {
 
     return () => clearTimeout(timer);
   }, []);
+
+
+    // const fetchProducts = async () => {
+    //   const res = await fetch(`${API_BASE_URL}/products`, {
+    //     headers: { 'x-org-id': SHOP_ORG_ID },
+    //   });
+    //   const data = await res.json();
+    //   console.log(data)
+    //   // if (data.success) setCategories(data.data);
+    // };
+  
+    // useEffect(() => {
+    //   fetchProducts();
+    // }, []);
  
   useEffect(() => {
     if (mounted) {
@@ -322,7 +338,13 @@ export default function Home() {
       {/* <StatsSection /> */}
 
       {/* Category Showcase */}
-      <CategoryShowcase />
+      {/* <HorizontalProductScroll 
+        title="Best Sellers" 
+        subtitle="Most loved by our customers" 
+      /> */}
+ 
+      <CategoryShowcase   title="Category" 
+        subtitle="Most loved by our customers" />
 
       {/* Featured Products Section */}
       <section className="py-20 px-4 bg-gradient-to-b from-background to-accent/20">
@@ -371,6 +393,7 @@ export default function Home() {
             >
               {featuredProducts.map((product) => (
                 <motion.div
+                
                   key={product.product_id}
                   layout
                   initial={{ opacity: 0, y: 20 }}
@@ -379,6 +402,7 @@ export default function Home() {
                   whileHover={{ y: -8 }}
                 >
                   <ProductCard 
+                  
                     id={product.product_id}
                     name={product.product_name}
                     price={product.price}
@@ -427,6 +451,7 @@ export default function Home() {
       <HorizontalProductScroll 
         title="Best Sellers" 
         subtitle="Most loved by our customers" 
+        type="best"
       />
 
       {/* 3D Parallax Features Section */}
@@ -486,6 +511,7 @@ export default function Home() {
       <HorizontalProductScroll 
         title="New Arrivals" 
         subtitle="Fresh additions to our collection" 
+        type="new"
       />
 
       {/* Process Section */}

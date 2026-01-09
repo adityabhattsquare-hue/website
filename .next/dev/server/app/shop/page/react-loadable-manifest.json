@@ -5,12 +5,5 @@
       "static/chunks/components_footer_jsx_f84a66f2._.js",
       "static/chunks/components_footer_jsx_a15993b5._.js"
     ]
-  },
-  "[project]/components/navbar.jsx [app-client] (ecmascript, next/dynamic entry)": {
-    "id": "[project]/components/navbar.jsx [app-client] (ecmascript, next/dynamic entry)",
-    "files": [
-      "static/chunks/components_navbar_jsx_4267fb20._.js",
-      "static/chunks/components_navbar_jsx_a15993b5._.js"
-    ]
   }
 }

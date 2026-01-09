@@ -67,7 +67,7 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
             href: `/product/${id}`,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 aspect-square",
+                    className: "relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100  ",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].img, {
                             whileHover: {
@@ -78,7 +78,7 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                             },
                             src: image || "/placeholder.svg",
                             alt: name,
-                            className: "w-full h-full object-cover"
+                            className: "w-full h-50 object-cover "
                         }, void 0, false, {
                             fileName: "[project]/components/product-card.jsx",
                             lineNumber: 59,
@@ -88,7 +88,7 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                             className: "absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300"
                         }, void 0, false, {
                             fileName: "[project]/components/product-card.jsx",
-                            lineNumber: 68,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -109,7 +109,7 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                             className: "w-3 h-3"
                                         }, void 0, false, {
                                             fileName: "[project]/components/product-card.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, this),
                                         discount,
@@ -117,7 +117,7 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/product-card.jsx",
-                                    lineNumber: 73,
+                                    lineNumber: 75,
                                     columnNumber: 15
                                 }, this),
                                 is_featured && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -138,20 +138,20 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                             className: "w-3 h-3 fill-white"
                                         }, void 0, false, {
                                             fileName: "[project]/components/product-card.jsx",
-                                            lineNumber: 89,
+                                            lineNumber: 91,
                                             columnNumber: 17
                                         }, this),
                                         "Featured"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/product-card.jsx",
-                                    lineNumber: 83,
+                                    lineNumber: 85,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/product-card.jsx",
-                            lineNumber: 71,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -170,17 +170,17 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                     className: "w-4 h-4 text-gray-700"
                                 }, void 0, false, {
                                     fileName: "[project]/components/product-card.jsx",
-                                    lineNumber: 102,
+                                    lineNumber: 104,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/product-card.jsx",
-                                lineNumber: 101,
+                                lineNumber: 103,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/product-card.jsx",
-                            lineNumber: 96,
+                            lineNumber: 98,
                             columnNumber: 11
                         }, this)
                     ]
@@ -197,7 +197,7 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                             children: name
                         }, void 0, false, {
                             fileName: "[project]/components/product-card.jsx",
-                            lineNumber: 110,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -211,12 +211,12 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                             className: `w-3.5 h-3.5 ${i < Math.floor(rating) ? 'text-amber-400 fill-amber-400' : 'text-gray-300 fill-gray-300'}`
                                         }, i, false, {
                                             fileName: "[project]/components/product-card.jsx",
-                                            lineNumber: 118,
+                                            lineNumber: 120,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/product-card.jsx",
-                                    lineNumber: 116,
+                                    lineNumber: 118,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -224,7 +224,7 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                     children: rating
                                 }, void 0, false, {
                                     fileName: "[project]/components/product-card.jsx",
-                                    lineNumber: 128,
+                                    lineNumber: 130,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -232,13 +232,13 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                     children: "(127)"
                                 }, void 0, false, {
                                     fileName: "[project]/components/product-card.jsx",
-                                    lineNumber: 131,
+                                    lineNumber: 133,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/product-card.jsx",
-                            lineNumber: 115,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -255,7 +255,7 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/product-card.jsx",
-                                            lineNumber: 139,
+                                            lineNumber: 141,
                                             columnNumber: 15
                                         }, this),
                                         hasDiscount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -266,13 +266,13 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/product-card.jsx",
-                                            lineNumber: 141,
+                                            lineNumber: 143,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/product-card.jsx",
-                                    lineNumber: 138,
+                                    lineNumber: 140,
                                     columnNumber: 13
                                 }, this),
                                 hasDiscount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -283,13 +283,13 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/product-card.jsx",
-                                    lineNumber: 147,
+                                    lineNumber: 149,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/product-card.jsx",
-                            lineNumber: 137,
+                            lineNumber: 139,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -306,20 +306,20 @@ function ProductCard({ id, name, price, compare_price, image, rating = 4.5, is_f
                                     className: "w-4 h-4"
                                 }, void 0, false, {
                                     fileName: "[project]/components/product-card.jsx",
-                                    lineNumber: 160,
+                                    lineNumber: 162,
                                     columnNumber: 13
                                 }, this),
                                 "Add to Cart"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/product-card.jsx",
-                            lineNumber: 154,
+                            lineNumber: 156,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/product-card.jsx",
-                    lineNumber: 108,
+                    lineNumber: 110,
                     columnNumber: 9
                 }, this)
             ]
@@ -366,7 +366,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$redux$2f$slices$2f$productSl
 var __TURBOPACK__imported__module__$5b$project$5d2f$redux$2f$slices$2f$categorySlice$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/redux/slices/categorySlice.js [app-client] (ecmascript)");
 ;
 ;
-;
 var _s = __turbopack_context__.k.signature();
 'use client';
 ;
@@ -378,15 +377,9 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 // Dynamically import Navbar and Footer to avoid SSR issues
-const Navbar = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(()=>__turbopack_context__.A("[project]/components/navbar.jsx [app-client] (ecmascript, next/dynamic entry, async loader)"), {
-    loadableGenerated: {
-        modules: [
-            "[project]/components/navbar.jsx [app-client] (ecmascript, next/dynamic entry)"
-        ]
-    },
-    ssr: false
-});
-_c = Navbar;
+// const Navbar = dynamic(() => import('@/components/navbar.jsx'), {
+//   ssr: false,
+// });
 const Footer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(()=>__turbopack_context__.A("[project]/components/footer.jsx [app-client] (ecmascript, next/dynamic entry, async loader)"), {
     loadableGenerated: {
         modules: [
@@ -395,7 +388,7 @@ const Footer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$
     },
     ssr: false
 });
-_c1 = Footer;
+_c = Footer;
 // Price ranges for filtering
 const PRICE_RANGES = [
     {
@@ -592,11 +585,6 @@ function ShopPage() {
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Navbar, {}, void 0, false, {
-                fileName: "[project]/app/shop/page.jsx",
-                lineNumber: 172,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "min-h-screen bg-background",
                 children: [
@@ -1146,11 +1134,10 @@ _s(ShopPage, "If7k/RNO9lEEGG7galL8pLlEkJ0=", false, function() {
         __TURBOPACK__imported__module__$5b$project$5d2f$redux$2f$hooks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAppSelector"]
     ];
 });
-_c2 = ShopPage;
-var _c, _c1, _c2;
-__turbopack_context__.k.register(_c, "Navbar");
-__turbopack_context__.k.register(_c1, "Footer");
-__turbopack_context__.k.register(_c2, "ShopPage");
+_c1 = ShopPage;
+var _c, _c1;
+__turbopack_context__.k.register(_c, "Footer");
+__turbopack_context__.k.register(_c1, "ShopPage");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

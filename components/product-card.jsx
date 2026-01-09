@@ -55,13 +55,15 @@ export default function ProductCard({
     >
       <Link href={`/product/${id}`}>
         {/* Image Section */}
-        <div className="relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 aspect-square">
+        <div className="relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100  ">
           <motion.img
             whileHover={{ scale: 1.08 }}
             transition={{ duration: 0.4 }}
             src={image || "/placeholder.svg"}
             alt={name}
-            className="w-full h-full object-cover"
+            className="w-full h-50 object-cover "
+            
+            
           />
           
           {/* Overlay on hover */}

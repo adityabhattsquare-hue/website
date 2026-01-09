@@ -173,7 +173,9 @@
     --color-red-700: #bf000f;
     --color-red-800: #9f0712;
     --color-orange-500: #fe6e00;
+    --color-amber-300: #ffd236;
     --color-amber-400: #fcbb00;
+    --color-amber-500: #f99c00;
     --color-amber-600: #dd7400;
     --color-yellow-100: #fef9c2;
     --color-yellow-400: #fac800;
@@ -300,7 +302,9 @@
       --color-red-700: lab(40.4273% 67.2623 53.7441);
       --color-red-800: lab(33.7174% 55.8993 41.0293);
       --color-orange-500: lab(64.272% 57.1788 90.3583);
+      --color-amber-300: lab(86.4156% 6.13147 78.3961);
       --color-amber-400: lab(80.1641% 16.6016 99.2089);
+      --color-amber-500: lab(72.7183% 31.8672 97.9407);
       --color-amber-600: lab(60.3514% 40.5624 87.1228);
       --color-yellow-100: lab(97.3564% -4.51407 27.344);
       --color-yellow-400: lab(83.2664% 8.65132 106.895);
@@ -1131,6 +1135,10 @@
     field-sizing: content;
   }
 
+  .aspect-auto {
+    aspect-ratio: auto;
+  }
+
   .aspect-square {
     aspect-ratio: 1;
   }
@@ -1284,6 +1292,14 @@
     height: calc(var(--spacing) * 48);
   }
 
+  .h-50 {
+    height: calc(var(--spacing) * 50);
+  }
+
+  .h-56 {
+    height: calc(var(--spacing) * 56);
+  }
+
   .h-64 {
     height: calc(var(--spacing) * 64);
   }
@@ -1298,6 +1314,10 @@
 
   .h-96 {
     height: calc(var(--spacing) * 96);
+  }
+
+  .h-100 {
+    height: calc(var(--spacing) * 100);
   }
 
   .h-\[1\.15rem\] {
@@ -1358,6 +1378,10 @@
 
   .max-h-\(--radix-select-content-available-height\) {
     max-height: var(--radix-select-content-available-height);
+  }
+
+  .max-h-1 {
+    max-height: calc(var(--spacing) * 1);
   }
 
   .max-h-\[90vh\] {
@@ -1434,6 +1458,10 @@
 
   .w-2\/3 {
     width: 66.6667%;
+  }
+
+  .w-2xl {
+    width: var(--container-2xl);
   }
 
   .w-3 {
@@ -2256,6 +2284,14 @@
     background-color: #f3f4f6;
   }
 
+  .bg-amber-300 {
+    background-color: var(--color-amber-300);
+  }
+
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
+
   .bg-background {
     background-color: #fff;
   }
@@ -2301,6 +2337,16 @@
   @supports (color: color-mix(in lab, red, red)) {
     .bg-black\/50 {
       background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
+    }
+  }
+
+  .bg-black\/70 {
+    background-color: #000000b3;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/70 {
+      background-color: color-mix(in oklab, var(--color-black) 70%, transparent);
     }
   }
 
@@ -2731,17 +2777,17 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops);
   }
 
-  .via-black\/20 {
-    --tw-gradient-via: #0003;
+  .via-black\/30 {
+    --tw-gradient-via: #0000004d;
   }
 
   @supports (color: color-mix(in lab, red, red)) {
-    .via-black\/20 {
-      --tw-gradient-via: color-mix(in oklab, var(--color-black) 20%, transparent);
+    .via-black\/30 {
+      --tw-gradient-via: color-mix(in oklab, var(--color-black) 30%, transparent);
     }
   }
 
-  .via-black\/20 {
+  .via-black\/30 {
     --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-via-stops);
   }
@@ -3075,6 +3121,10 @@
 
   .fill-yellow-400 {
     fill: var(--color-yellow-400);
+  }
+
+  .object-contain {
+    object-fit: contain;
   }
 
   .object-cover {
@@ -3597,16 +3647,6 @@
     color: var(--color-white);
   }
 
-  .text-white\/70 {
-    color: #ffffffb3;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .text-white\/70 {
-      color: color-mix(in oklab, var(--color-white) 70%, transparent);
-    }
-  }
-
   .text-white\/80 {
     color: #fffc;
   }
@@ -3782,6 +3822,10 @@
 
   .blur-\[150px\] {
     --tw-blur: blur(150px);
+    filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
+  }
+
+  .filter {
     filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
   }
 

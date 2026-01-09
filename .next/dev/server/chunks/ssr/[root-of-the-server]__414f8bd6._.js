@@ -1885,10 +1885,7 @@ function Navbar() {
             label: 'Shop',
             href: '/shop'
         },
-        {
-            label: 'Blog',
-            href: '/blog'
-        },
+        // { label: 'Blog', href: '/blog' }, // Added Blog option
         {
             label: 'About',
             href: '/about'
@@ -2161,25 +2158,6 @@ function Navbar() {
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/navbar.jsx",
                                                                     lineNumber: 166,
-                                                                    columnNumber: 25
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    href: "/blog",
-                                                                    onClick: ()=>setIsProfileDropdownOpen(false),
-                                                                    className: "flex items-center gap-3 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__["BookOpen"], {
-                                                                            size: 16
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/components/navbar.jsx",
-                                                                            lineNumber: 181,
-                                                                            columnNumber: 27
-                                                                        }, this),
-                                                                        "Blog"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/components/navbar.jsx",
-                                                                    lineNumber: 176,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]

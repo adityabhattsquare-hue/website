@@ -44,7 +44,7 @@ export default function Navbar() {
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'Shop', href: '/shop' },
-    { label: 'Blog', href: '/blog' }, // Added Blog option
+    // { label: 'Blog', href: '/blog' }, // Added Blog option
     { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' },
   ];
@@ -173,14 +173,14 @@ export default function Navbar() {
                         </Link>
 
                         {/* Added Blog Link in Profile Dropdown */}
-                        <Link
+                        {/* <Link
                           href="/blog"
                           onClick={() => setIsProfileDropdownOpen(false)}
                           className="flex items-center gap-3 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition"
                         >
                           <BookOpen size={16} />
                           Blog
-                        </Link>
+                        </Link> */}
                       </div>
 
                       {/* Logout */}

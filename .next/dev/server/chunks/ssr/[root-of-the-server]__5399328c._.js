@@ -16,7 +16,7 @@ __turbopack_context__.s([
     "register",
     ()=>register
 ]);
-const API_BASE = ("TURBOPACK compile-time value", "http://localhost:3000");
+const API_BASE = ("TURBOPACK compile-time value", "http://localhost:5000/api");
 const login = async (email, password)=>{
     try {
         const response = await fetch(`${API_BASE}/auth/login`, {
@@ -249,7 +249,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$reduxjs$2f$toolkit$2f$dist$2f$redux$2d$toolkit$2e$modern$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@reduxjs/toolkit/dist/redux-toolkit.modern.mjs [app-ssr] (ecmascript) <locals>");
 ;
-const API_BASE = ("TURBOPACK compile-time value", "http://localhost:3000");
+const API_BASE = ("TURBOPACK compile-time value", "http://localhost:5000/api");
 const getAuthToken = ()=>{
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;
@@ -641,7 +641,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib
 ;
 // Create axios instance with base config
 const api = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].create({
-    baseURL: ("TURBOPACK compile-time value", "http://localhost:3000")
+    baseURL: ("TURBOPACK compile-time value", "http://localhost:5000/api")
 });
 // Add token to requests
 const getAuthConfig = ()=>{
@@ -819,7 +819,7 @@ __turbopack_context__.s([
     "fetchProducts",
     ()=>fetchProducts
 ]);
-const API_BASE = ("TURBOPACK compile-time value", "http://localhost:3000");
+const API_BASE = ("TURBOPACK compile-time value", "http://localhost:5000/api");
 const SHOP_ORG_ID = ("TURBOPACK compile-time value", "1");
 const fetchProducts = async (filters = {})=>{
     try {
@@ -986,7 +986,7 @@ __turbopack_context__.s([
     "fetchCategories",
     ()=>fetchCategories
 ]);
-const API_BASE = ("TURBOPACK compile-time value", "http://localhost:3000");
+const API_BASE = ("TURBOPACK compile-time value", "http://localhost:5000/api");
 const SHOP_ORG_ID = ("TURBOPACK compile-time value", "1");
 const fetchCategories = async ()=>{
     try {
@@ -1086,7 +1086,7 @@ __turbopack_context__.s([
     "updateAddress",
     ()=>updateAddress
 ]);
-const API_BASE = ("TURBOPACK compile-time value", "http://localhost:3000");
+const API_BASE = ("TURBOPACK compile-time value", "http://localhost:5000/api");
 const getAuthToken = ()=>{
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;
@@ -1341,7 +1341,7 @@ __turbopack_context__.s([
     "uploadProfileImage",
     ()=>uploadProfileImage
 ]);
-const API_BASE = ("TURBOPACK compile-time value", "http://localhost:3000");
+const API_BASE = ("TURBOPACK compile-time value", "http://localhost:5000/api");
 const getAuthToken = ()=>{
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;
@@ -1605,7 +1605,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$reduxjs$2f$toolkit$2f$dist$2f$redux$2d$toolkit$2e$modern$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@reduxjs/toolkit/dist/redux-toolkit.modern.mjs [app-ssr] (ecmascript) <locals>");
 ;
-const API_BASE = ("TURBOPACK compile-time value", "http://localhost:3000");
+const API_BASE = ("TURBOPACK compile-time value", "http://localhost:5000/api");
 const getAuthToken = ()=>{
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;

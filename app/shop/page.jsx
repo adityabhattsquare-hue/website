@@ -11,9 +11,9 @@ import { getProducts } from '@/redux/slices/productSlice.js';
 import { getCategories } from '@/redux/slices/categorySlice.js';
 
 // Dynamically import Navbar and Footer to avoid SSR issues
-const Navbar = dynamic(() => import('@/components/navbar.jsx'), {
-  ssr: false,
-});
+// const Navbar = dynamic(() => import('@/components/navbar.jsx'), {
+//   ssr: false,
+// });
 
 const Footer = dynamic(() => import('@/components/footer.jsx'), {
   ssr: false,
@@ -169,7 +169,7 @@ export default function ShopPage() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="min-h-screen bg-background">
         {/* Hero */}
         <section className="bg-accent py-12 px-4">
